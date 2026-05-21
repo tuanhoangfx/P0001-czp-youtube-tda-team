@@ -30,15 +30,29 @@
     "branch": "main",
     "manifestPath": "tool.manifest.json"
   },
+  "deployTarget": "vercel",
   "release": {
     "version": "0.0.0",
     "readiness": [
       "dev",
-      "docs"
+      "docs",
+      "supabase"
     ]
   },
   "urls": {
+    "app": "https://p0001-youtube-tda-team.vercel.app",
     "local": "http://127.0.0.1:3000"
+  },
+  "vercel": {
+    "project": "p0001-youtube-tda-team",
+    "projectId": "prj_kSxUECArkdNRd54V9SzfmmqOHTPm",
+    "productionUrl": "https://p0001-youtube-tda-team.vercel.app",
+    "team": "tuanhoangfxs-projects"
+  },
+  "supabase": {
+    "projectRef": "ibwnrwxrzqrctqjiikzi",
+    "url": "https://ibwnrwxrzqrctqjiikzi.supabase.co",
+    "dashboard": "https://supabase.com/dashboard/project/ibwnrwxrzqrctqjiikzi"
   },
   "health": {
     "status": "Needs review",
