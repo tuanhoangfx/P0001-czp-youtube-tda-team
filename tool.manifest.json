@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "code": "P0013",
+  "id": "czp-youtube-tda-team",
+  "aliases": [
+    "P0013",
+    "YouTube TDA Team"
+  ],
+  "name": "CzP YouTube TDA Team",
+  "type": "Web",
+  "owner": "Tool",
+  "status": "Needs review",
+  "summary": "YouTube channel performance dashboard with team metrics (AI Studio / Gemini app).",
+  "stack": [
+    "React",
+    "Vite",
+    "Supabase",
+    "Gemini"
+  ],
+  "commands": {
+    "dev": "npm run dev",
+    "build": "npm run build",
+    "preview": "npm run preview"
+  },
+  "docs": {
+    "readme": "README.md"
+  },
+  "github": {
+    "repo": "tuanhoangfx/P0001-czp-youtube-tda-team",
+    "branch": "main",
+    "manifestPath": "tool.manifest.json"
+  },
+  "release": {
+    "version": "0.0.0",
+    "readiness": [
+      "dev",
+      "docs"
+    ]
+  },
+  "urls": {
+    "local": "http://127.0.0.1:3000"
+  },
+  "health": {
+    "status": "Needs review",
+    "note": "Requires GEMINI_API_KEY in .env.local."
+  },
+  "nextActions": [
+    "Wire into P0018 WebApps hub with projectCode P0013.",
+    "Add CHANGELOG.md when releasing."
+  ],
+  "manifestUpdatedAt": "2026-05-21T08:00:00.000Z"
+}
