@@ -59,8 +59,8 @@
     "note": "Requires GEMINI_API_KEY in .env.local."
   },
   "nextActions": [
-    "Wire into P0018 WebApps hub with projectCode P0013.",
-    "Add CHANGELOG.md when releasing."
+    "Add CHANGELOG.md when releasing.",
+    "Confirm Vercel env (Supabase + Gemini keys) on p0001-youtube-tda-team."
   ],
   "manifestUpdatedAt": "2026-05-21T08:00:00.000Z"
 }
